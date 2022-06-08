@@ -6,7 +6,7 @@
 
 ```hcl
 module "router" {
-    source = "github.com/pbs/terraform-aws-virtual-router-module?ref=0.0.1"
+    source = "github.com/pbs/terraform-aws-virtual-router-module?ref=x.y.z"
 }
 ```
 
@@ -22,7 +22,7 @@ Integrate this module like so:
 
 ```hcl
 module "router" {
-  source = "github.com/pbs/terraform-aws-virtual-router-module?ref=0.0.1"
+  source = "github.com/pbs/terraform-aws-virtual-router-module?ref=x.y.z"
 
   # Required Parameters
   mesh_name = module.mesh.id
@@ -41,7 +41,7 @@ module "router" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.1`
+`x.y.z`
 
 Note, however that subtrees can be altered as desired within repositories.
 
@@ -75,7 +75,6 @@ No modules.
 | Name | Type |
 |------|------|
 | [aws_appmesh_virtual_router.router](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/appmesh_virtual_router) | resource |
-| [aws_caller_identity.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | data source |
 
 ## Inputs
 
