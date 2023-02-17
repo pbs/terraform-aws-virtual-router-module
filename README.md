@@ -6,7 +6,7 @@
 
 ```hcl
 module "router" {
-    source = "github.com/pbs/terraform-aws-virtual-router-module?ref=0.0.2"
+    source = "github.com/pbs/terraform-aws-virtual-router-module?ref=0.0.3"
 }
 ```
 
@@ -22,7 +22,7 @@ Integrate this module like so:
 
 ```hcl
 module "router" {
-  source = "github.com/pbs/terraform-aws-virtual-router-module?ref=0.0.2"
+  source = "github.com/pbs/terraform-aws-virtual-router-module?ref=0.0.3"
 
   # Required Parameters
   mesh_name = module.mesh.id
@@ -41,7 +41,7 @@ module "router" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.2`
+`0.0.3`
 
 Note, however that subtrees can be altered as desired within repositories.
 
