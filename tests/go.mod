@@ -1,6 +1,6 @@
 module github.com/pbs/terraform-aws-virtual-router-module
 
-go 1.13
+go 1.20
 
 require (
 	github.com/aws/aws-sdk-go v1.44.122
