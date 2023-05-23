@@ -1,13 +1,13 @@
-# PBS TF virtual router module
+# PBS TF Virtual Router Module
 
 ## Installation
 
 ### Using the Repo Source
 
+Use this URL for the source of the module. See the usage examples below for more details.
+
 ```hcl
-module "router" {
-    source = "github.com/pbs/terraform-aws-virtual-router-module?ref=x.y.z"
-}
+github.com/pbs/terraform-aws-virtual-router-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
